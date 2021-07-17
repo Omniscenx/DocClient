@@ -13,9 +13,9 @@
     background-color: var(--background-color);
     border-radius: 50px;
     box-shadow: 9px 13px 86px 11px rgba(148, 197, 181, 0.55);
-
     display: flex;
-
+    justify-content: center;
+    align-items: center;
     .content {
       display: flex;
       flex-direction: column;
@@ -41,7 +41,9 @@
       margin-right: 3rem;
       Image {
         border-radius: 100px;
-        min-width: none;
+        // min-width: none;
+        max-width: 100%;
+        object-fit: contain;
       }
     }
     .buttons {
