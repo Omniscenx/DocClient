@@ -4,7 +4,19 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+   
+
+
 }
+:root{
+  --primary-color:#bff7e6;
+  --button-color:#00e47f;
+  --secondary-color:#84e7d4;
+  --teritiary-color:#ff757e;
+  --background-color:#ffffff;
+}
+
 
 a {
   color: inherit;

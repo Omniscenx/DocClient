@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/Home.module.css'
+import Hero from '../Components/Hero/Hero'
 
 export default function Home() {
   return (
@@ -8,14 +9,7 @@ export default function Home() {
       <Head>
      <title>instant chat</title>
       </Head>
-
-      <main className={styles.main}>
-
-      </main>
-
-      <footer className={styles.footer}>
- 
-      </footer>
+<Hero/>
     </div>
   )
 }
