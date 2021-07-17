@@ -1,18 +1,19 @@
 import React from 'react';
 import Image from 'next/image'
-import docter from '../../../public/doctor.svg'
+import doctor from '../../../public/doctor.svg'
 import styles from '../Form.module.scss'
 
 const DocSignin = () => {
     return(
-        <div className={styles.form}>
-            <Image src={docter} height={500} width={500} alt="docter"></Image>
-            <form>
-                <label>Email</label>
-                <input/>
-                <label>Password</label>
-                <input />
+        <div className={styles.body}>
+            <div className={styles.main}>
+            <Image src={doctor} height={500} width={500} alt="docter"></Image>
+            <form className={styles.form}>
+                <input placeholder="Email"/>
+                <input placeholder="Password"/>
+                <button>Login</button>
             </form>
+            </div>
         </div>
     )
 }
