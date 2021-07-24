@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import DocSignin from '../Components/Form/Doctor/DocSignin'
+import PatientSignin from '../Components/Form/Patient/PatientSignin'
 
 export default function Login() {
     return(
@@ -7,7 +8,8 @@ export default function Login() {
             <Head>
                 <title>Login</title>
             </Head>
-            <DocSignin />
+            {/* <DocSignin /> */}
+            <PatientSignin />
         </div>
     )
 }
