@@ -10,12 +10,14 @@ const book = () => {
         <title>Book An Appointment</title>
       </Head>
       <div className={styles.main}>
+
         <div className={styles.searchContainer}>
           <img src="https://img.icons8.com/doodle/150/000000/doctor-male.png" />
           <div className={styles.search}>
             <img src="https://img.icons8.com/material-outlined/50/ff757e/search--v2.png" />
             <input type="search" placeholder="Search Doctors here..."></input>
           </div>
+
         </div>
         <div className={styles.listContainer}>
           {Specialist.map((i) => (
