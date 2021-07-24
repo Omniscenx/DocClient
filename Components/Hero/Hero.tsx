@@ -15,8 +15,8 @@ const Hero = () => {
             Chat with a Doctor from 100+ Specialties including General Physicians
           </span>
           <div className={styles.buttons}>
-            <button className={styles.doctor}>As a Doctor</button>
             <button className={styles.patient}>As a Patient</button>
+            <button className={styles.doctor}>As a Doctor</button>
           </div>
         </div>
 
