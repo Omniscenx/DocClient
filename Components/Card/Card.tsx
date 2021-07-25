@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import styles from './PatientDashboard.module.scss';
+import styles from './Card.module.scss';
 
-const PatientDashboard = () => {
+const Card = () => {
   return (
     <div>
       <Head>
@@ -24,7 +24,6 @@ const PatientDashboard = () => {
                 <div className={styles.info}>
                   <h3>Dr. Ananya Gupta</h3>
                   <h4>General Physician</h4>
-
                   <div className={styles.buttonGroup}>
                     <button className={styles.button1}>Start Chat</button>
                     <button className={styles.button2}>Cancel</button>
@@ -33,13 +32,10 @@ const PatientDashboard = () => {
               </div>
             </div>
           </div>
-          <div className={styles.background}>
-            <div className={styles.backgroundImage}></div>
-          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default PatientDashboard;
+export default Card;

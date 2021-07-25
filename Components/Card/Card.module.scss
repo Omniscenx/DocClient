@@ -1,53 +1,21 @@
-// * {
-//   box-sizing: border-box;
-//   transition: 0.5s ease-in-out;
-// }
-
-// html,
-// body {
-//   background-color: #220200;
-//   height: 100%;
-//   overflow: hidden;
-//   font-family: helvetica neue, helvetica, arial, sans-serif;
-//   h1 {
-//     font-size: 25px;
-//     font-weight: 200;
-//     color: white;
-//     line-height: 30px;
-//     margin-bottom: 10px;
-//   }
-//   h2 {
-//     font-size: 15px;
-//     color: #6b0500;
-//   }
-// }
-
 .wrapper {
   opacity: 1;
   transition: 2.5s ease-in-out;
-  //   opacity: 0;
   display: table;
   height: 100%;
   width: 100%;
-  &.loaded {
-    opacity: 1;
-    transition: 2.5s ease-in-out;
-  }
   .content {
     display: table-cell;
     vertical-align: middle;
   }
 }
-
 .card {
-  height: 360px;
-  width: 300px;
+  height: 22.5rem;
+  width: 18.75rem;
   margin: 0 auto;
   position: relative;
   z-index: 1;
-  perspective: 600px;
   margin-top: 1rem;
-
   .front {
     border-radius: 1rem;
     height: 100%;
@@ -80,13 +48,11 @@
       display: flex;
       justify-content: center;
       background-color: #ecfbf4;
-      //   background-image: url(https://library.kissclipart.com/20180831/vjq/kissclipart-stethoscope-graphic-vector-design-clipart-stethosc-6adc24863588a57e.jpg);
-      //   background-size: cover;
     }
     .photo {
       width: 11rem;
       height: 11rem;
-      // border-radius: 50%;
+      border-radius: 50%;
       background-image: url(https://thumbs.dreamstime.com/b/realistic-detailed-d-medical-green-stethoscope-vector-illustration-professional-instrument-diagnostic-health-193136502.jpg);
       background-size: cover;
     }
@@ -108,12 +74,9 @@
       height: 40%;
       width: 100%;
       display: table;
-      left: 0;
-      bottom: 0;
       background: #84e7d4;
-      //   opacity: 0.7;
-      padding: 10px;
-      padding-bottom: 20px;
+      padding: 0.625rem;
+      padding-bottom: 1.25rem;
       border-bottom-left-radius: 1rem;
       border-bottom-right-radius: 1rem;
     }
@@ -127,22 +90,16 @@
     h5 {
       margin-top: 0.3rem;
       margin-left: 11rem;
-      //   margin-right: 1rem;
       width: 100%;
-      //   color: white;
     }
     h3 {
       display: flex;
       justify-content: center;
-      //   color: white;
     }
     h4 {
-      //   margin-left: 3rem;
-
       width: 100%;
       display: flex;
       justify-content: center;
-      //   color: white;
     }
     .buttonGroup {
       margin-top: 1.5rem;
@@ -152,15 +109,8 @@
     }
     .button1,
     .button2 {
-      //   margin-top: 3rem;
-
       display: flex;
-      //   color: white;
-      //   padding: 20px;
-      //   margin-right: 50px;
-      //   margin-top: 20px;
-      //   border-radius: 10px;
-      width: 100px;
+      width: 6.25rem;
       height: 2.5rem;
       font: 1em sans-serif;
       font-weight: 700;
@@ -172,46 +122,14 @@
       background-color: #00cecf;
       opacity: 0.8;
       border: none;
-      //   color: white;
       &:hover {
         opacity: 1;
       }
     }
-
     .button2 {
       margin-left: 3rem;
       margin-right: -1.5rem;
       background-color: #ff757e;
     }
-  }
-}
-.background {
-  position: fixed;
-  //   background-color: black;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  .backgroundImage {
-    height: calc(100% + 60px);
-    width: calc(100% + 60px);
-    position: absolute;
-    top: -30px;
-    left: -30px;
-    // -webkit-filter: blur(10px);
-    // background-image: url(https://unsplash.imgix.net/45/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=857f07b76abac23a7fb7161cc7b12a46);
-    // background-size: cover;
-  }
-}
-
-@keyframes arrowWiggle {
-  0% {
-    right: 50px;
-  }
-  50% {
-    right: 35px;
-  }
-  100% {
-    right: 50px;
   }
 }
