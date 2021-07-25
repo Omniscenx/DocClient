@@ -70,6 +70,7 @@
 
         &:hover {
           transition: ease-in 1s;
+          background-color: whitesmoke;
         }
       }
       .patient {
@@ -78,8 +79,7 @@
         border: none;
 
         &:hover {
-          border: 2px solid #00cecf;
-
+          background-color: #6becec;
           transition: ease-in-out 1s;
         }
       }
